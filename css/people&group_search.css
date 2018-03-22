@@ -16,6 +16,7 @@ header{
 .placeholder_style::-webkit-input-placeholder{
 	color:#91979A;
 	font-family:blogger, Arial, serif;
+	padding-left:10px;
 }
 
 .header{
@@ -59,6 +60,7 @@ header{
 	background-repeat:no-repeat;
 	background-position:0 0px;
 	height:30px;
+	width:280px;
 }
 
 #search_button{
@@ -75,7 +77,6 @@ input[type="text"]{
 	font-size:20px;
 	height:30px;
 	width:280px;
-	padding-left:10px;
 	border:none;
 	background:none;
 }
@@ -86,6 +87,27 @@ input[type="text"]:focus{
 	border-radius:1px;
 	border: 1px solid #90C7DD;
 	border-width:0 0 1px 0;
+}
+
+input[type="text"]#search_input_large{
+	vertical-align:middle;
+	font-size:20px;
+	height:45px;
+	width:100%;
+	/* padding-left:10px; */
+	border:none;
+	background:none;
+	color:#3B4244;
+}
+
+input[type="text"]#search_input_large:focus{
+	background-color:#F5F5F5;
+	outline: none;
+	border-radius:1px;
+	border: 1px solid #90C7DD;
+	border-width:0 0 1px 0;
+	color:#3B4244;
+	/* padding-left:10px; */
 }
 
 input[type="image"]:focus{
@@ -164,6 +186,26 @@ a.right_top:hover{
 	width:55%;
 }
 
+.search_field_large{
+	margin-left:0%;
+	padding-top:0px;
+	background-color:#DFE4EB;
+	height:45px;
+	margin-bottom:5px;
+	width:100%;
+}
+
+#search_button_large{
+	margin-left:-30px;
+	margin-top:10px;
+}
+
+#search_input_large{
+	float:left;
+	width:100%;
+	padding:0;
+}
+
 a:visited{
 	color:#3F8CB8;
 	text-decoration:none;
@@ -185,15 +227,12 @@ a:-webkit-any-link{
 
 .search_smth_link{
 	width:100%;
-	background-color:white;
-	padding: 0 1px 0 1px;
 	border-bottom:1px solid #DFE2E8;
 	margin-bottom:5px;
 }
 
 p#people{
-	font-family: Arial, serif;
-	font-size:22px;
+	font-size:16px;
 	color:#3F8CB8;
 	padding-left:10px;
 	margin:5px 0 0 0;
